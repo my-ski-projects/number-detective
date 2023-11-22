@@ -2,7 +2,9 @@
 
 ## Downloads
 
-You can download [here](./downloads/1-to-15-number-finder.pdf) and print the cards
+Want to play it with your friends/family ?
+You can download the [Cards Stencils](./downloads/1-to-15-number-finder.pdf)
+Print it, play & have fun ! :smiley:
 
 ## What’s the game?
 
