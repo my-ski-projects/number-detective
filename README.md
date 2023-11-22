@@ -9,7 +9,7 @@
 Want to play it with your friends/family ?<br>
 <button class="my-button" onclick="window.location.href='./downloads/1-to-15-number-finder.pdf'" id="download-button">Download the Cards</button>
 
-Print it, play & have fun ! 😃 <br>
+Print it, Cut out the white squares with X mark, play & have fun ! 😃 <br>
 
 Like it ? <button class="my-button" id="share-button">Click to Share it</button>
 
@@ -19,13 +19,21 @@ Like it ? <button class="my-button" id="share-button">Click to Share it</button>
   .my-button {
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 15px 30px; 
+    font-size: 18px; 
     font-weight: bold;
-    color: black;
+    color: white; 
     border-radius: 5px;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #007bff; 
+    border-color: #0056b3; 
+    text-align: center; 
+    display: inline-block; 
+    transition: background-color 0.3s ease; 
+  }
+
+  .my-button:hover {
+    background-color: #0056b3; 
+    border-color: #003d80; 
   }
 
 
@@ -64,7 +72,7 @@ It’s a magical game where I will find any secret number that you think between
 
 1. Show the Cards from 1 to 4
 2. Stack the cards one over other with the answer (yes/no) side on top
-3. Note, for the 4th Card the No is on right side and not at the bottom
+3. Note: for the 4th Card the No is on right side and not at the bottom
 4. For the 4th card, after keeping the answer side on top, Flip the 4th card so that the backside faces you
 5. Keep the 4 th card at the bottom of the stack and it will reveal the number the Player has chosen.
 
