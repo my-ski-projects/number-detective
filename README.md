@@ -23,6 +23,7 @@ Like it ? <button id="share-button">Click to Share it</button>
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
+    color: black;
     border-radius: 5px;
     background-color: #007bff;
     border-color: #007bff;
