@@ -8,25 +8,28 @@
 
 Want to play it with your friends/family ?<br>
 You can download the [Cards Stencils](./downloads/1-to-15-number-finder.pdf)<br>
-Print it, play & have fun ! :smiley: <br>
+Print it, play & have fun ! 😃 <br>
 
 Like it ? <button id="share-button">Click to Share it</button>
 
+<div>
 <script>
   const shareButton = document.getElementById("share-button");
 
-  shareButton.addEventListener("click", async () => {
-    try {
-      await navigator.share({
-        title: "Maths Magic",
-        text: "download and play the number detective game",
-        url: "https://my-ski-projects.github.io/number-finder/",
-      });
-    } catch (error) {
-      console.error("Error sharing:", error);
-    }
-  });
+shareButton.addEventListener("click", async () => {
+try {
+await navigator.share({
+title: "Maths Magic",
+text: "download and play the number detective game",
+url: "https://my-ski-projects.github.io/number-finder/",
+});
+} catch (error) {
+console.error("Error sharing:", error);
+}
+});
 </script>
+
+</div>
 
 # 1. Instructions for Player
 
