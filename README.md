@@ -7,12 +7,33 @@
 # Download Card Stencils
 
 Want to play it with your friends/family ?<br>
-You can download the [Cards Stencils](./downloads/1-to-15-number-finder.pdf)<br>
+<button onclick="window.location.href='./downloads/1-to-15-number-finder.pdf'" id="share-button">Download the Cards Stencils</button>
+
+<!-- Click to [download the **Cards Stencils**](./downloads/1-to-15-number-finder.pdf)<br> -->
+
 Print it, play & have fun ! 😃 <br>
 
 Like it ? <button id="share-button">Click to Share it</button>
 
 <div>
+<style>
+  #share-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+#share-button:hover {
+background-color: #0069d9;
+border-color: #0062cc;
+}
+</style>
+
 <script>
   const shareButton = document.getElementById("share-button");
 
@@ -21,7 +42,7 @@ try {
 await navigator.share({
 title: "Maths Magic",
 text: "download and play the number detective game",
-url: "https://my-ski-projects.github.io/number-finder/",
+url: "https://my-ski-projects.github.io/number-detective/",
 });
 } catch (error) {
 console.error("Error sharing:", error);
