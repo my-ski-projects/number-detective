@@ -1,5 +1,9 @@
 # 🎩 ✨ Maths Magic: the Number Detective ! 🔍 ✨
 
+## Downloads
+
+You can download [here](./downloads/1-to-15-number-finder.pdf) and print the cards
+
 ## What’s the game?
 
 It’s a magical game where I will find any secret number that you think between 1 and 15 !!
