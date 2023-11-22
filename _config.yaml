@@ -1,4 +1,11 @@
 theme: jekyll-theme-merlot
-
+show_downloads: [true]
 title: [Thank You !]
 description: [Thanks for visiting my project @ Technosium 2K23]
+
+github:
+  zip_url: https://my-ski-projects.github.io/number-detective/
+  tar_url: https://my-ski-projects.github.io/number-detective/
+  owner_url: https://my-ski-projects.github.io/number-detective/
+  repository_url: https://my-ski-projects.github.io/number-detective/
+  owern_name: "Kanishka S"
