@@ -1,10 +1,10 @@
 # 🎩 ✨ Maths Magic: the Number Detective ! 🔍 ✨
 
-[Download Stencils](#downloads)<br>
+[Download Card Stencils](#downloads)<br>
 [1. Instruction for Player](#1-instructions-for-player)<br>
 [2. Instruction for You as Magician](#2-instructions-for-you-as-magician)<br>
 
-# Downloads
+# Download Card Stencils
 
 Want to play it with your friends/family ?<br>
 You can download the [Cards Stencils](./downloads/1-to-15-number-finder.pdf)<br>
@@ -18,9 +18,9 @@ Like it ? <button id="share-button">Click to Share it</button>
   shareButton.addEventListener("click", async () => {
     try {
       await navigator.share({
-        title: "My website",
-        text: "Check out my website",
-        url: "https://www.example.com",
+        title: "Maths Magic",
+        text: "download and play the number detective game",
+        url: "https://my-ski-projects.github.io/number-finder/",
       });
     } catch (error) {
       console.error("Error sharing:", error);
@@ -55,7 +55,3 @@ Each card in the game represents a place(bit) in the binary number (from right t
 ## Why is this cool?
 
 This game is not just fun, it’s also a great way to learn about binary numbers and how they work. 🎈
-
-```html
-
-```

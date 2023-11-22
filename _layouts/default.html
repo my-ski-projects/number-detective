@@ -47,25 +47,6 @@
       {% else %}
         <div id="no-downloads">
           <span class="inner">
-
-            <button id="share-button">Share</button>
-
-<script>
-  const shareButton = document.getElementById('share-button');
-
-  shareButton.addEventListener('click', async () => {
-    try {
-      await navigator.share({
-        title: 'My website',
-        text: 'Check out my website',
-        url: 'https://www.example.com'
-      });
-    } catch (error) {
-      console.error('Error sharing:', error);
-    }
-  });
-</script>
-
           </span>
         </div>
       {% endif %}
