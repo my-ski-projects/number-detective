@@ -1,20 +1,17 @@
 # 🎩 ✨ Maths Magic: the Number Detective ! 🔍 ✨
 
-[Download Card Stencils](#downloads)<br>
+[Download & Print Cards](#download--print-cards)<br>
 [1. Instruction for Player](#1-instructions-for-player)<br>
 [2. Instruction for You as Magician](#2-instructions-for-you-as-magician)<br>
 
-# Download Card Stencils
+# Download & Print Cards
 
 Want to play it with your friends/family ?<br>
-<button class="my-button" onclick="window.location.href='./downloads/1-to-15-number-finder.pdf'" id="download-button">Download the Cards Stencils</button>
-
-<!-- Click to [download the **Cards Stencils**](./downloads/1-to-15-number-finder.pdf)<br> -->
+<button class="my-button" onclick="window.location.href='./downloads/1-to-15-number-finder.pdf'" id="download-button">Download the Cards</button>
 
 Print it, play & have fun ! 😃 <br>
 
 Like it ? <button class="my-button" id="share-button">Click to Share it</button>
-
 
 <div style="display: none;">
 
@@ -51,7 +48,6 @@ console.error("Error sharing:", error);
 </script>
 
 </div>
-
 
 # 1. Instructions for Player
 
