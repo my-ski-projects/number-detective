@@ -77,6 +77,8 @@ It’s a magical game where I will find any secret number that you think between
 The magic is in the numbers on the cards! They’re arranged in a special way based on ‘binary numbers’. Binary numbers are a fancy way of saying ‘numbers in ones and zeros. This makes it really quick to find the secret number !
 Each card in the game represents a place(bit) in the binary number (from right to left): Card 1 for the 1’s place, Card 2 for the 2’s place, Card 3 for the 4’s place, and Card 4 for the 8’s place. If a number has a ‘1’ in that place, it will appear on that card. So, by asking you which card the number appears on, I am actually figuring out the binary representation of your secret number!
 
+For more details refer to the [Binary numbers table](./assets/binary.pdf)
+
 ## Why is this cool?
 
 This game is not just fun, it’s also a great way to learn about binary numbers and how they work. 🎈
