@@ -82,3 +82,5 @@ For more details refer to the [Binary numbers table](./assets/binary.pdf)
 ## Why is this cool?
 
 This game is not just fun, it’s also a great way to learn about binary numbers and how they work. 🎈
+
+![QR Code](./assets/qr.png)
