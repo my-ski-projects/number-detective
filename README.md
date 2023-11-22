@@ -15,7 +15,9 @@ Print it, play & have fun ! 😃 <br>
 
 Like it ? <button id="share-button">Click to Share it</button>
 
-<div>
+
+<div style="display: none;">
+
 <style>
   #share-button {
     margin-top: 10px;
@@ -52,6 +54,7 @@ console.error("Error sharing:", error);
 </script>
 
 </div>
+
 
 # 1. Instructions for Player
 
