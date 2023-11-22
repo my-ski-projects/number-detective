@@ -7,17 +7,19 @@
 # Download Card Stencils
 
 Want to play it with your friends/family ?<br>
-<button onclick="window.location.href='./downloads/1-to-15-number-finder.pdf'" id="share-button">Download the Cards Stencils</button>
+<button class="my-button" onclick="window.location.href='./downloads/1-to-15-number-finder.pdf'" id="download-button">Download the Cards Stencils</button>
 
 <!-- Click to [download the **Cards Stencils**](./downloads/1-to-15-number-finder.pdf)<br> -->
 
 Print it, play & have fun ! 😃 <br>
 
-Like it ? <button id="share-button">Click to Share it</button>
+Like it ? <button class="my-button" id="share-button">Click to Share it</button>
 
-<div>
+
+<div style="display: none;">
+
 <style>
-  #share-button {
+  .my-button {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 20px;
@@ -29,10 +31,7 @@ Like it ? <button id="share-button">Click to Share it</button>
     border-color: #007bff;
   }
 
-#share-button:hover {
-background-color: #0069d9;
-border-color: #0062cc;
-}
+
 </style>
 
 <script>
@@ -52,6 +51,7 @@ console.error("Error sharing:", error);
 </script>
 
 </div>
+
 
 # 1. Instructions for Player
 
